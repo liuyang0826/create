@@ -1,7 +1,7 @@
 {
   "name": "@liuyang0826/create-app",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "类似degit的简单脚手架，可基于任意git仓库进行项目搭建",
   "main": "./dist/index.mjs",
   "bin": {
