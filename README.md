@@ -1,3 +1,3 @@
-# vite-plugin-auto-updater
+# @liuyang0826/create
 
-自动检测应用是否发布新版本。
+类似degit的简单脚手架，可基于任意git仓库进行项目搭建。

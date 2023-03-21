@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "description": "类似degit的简单脚手架，可基于任意git仓库进行项目搭建",
   "main": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "bin": {
+    "create-app": "./bin/index.mjs"
+  },
   "scripts": {
     "build": "unbuild",
     "release": "unbuild && bumpp && npm publish"
@@ -17,7 +19,8 @@
     "url": "git+https://github.com/liuyang0826/create.git"
   },
   "keywords": [
-    "vite"
+    "cli",
+    "degit"
   ],
   "sideEffects": false,
   "files": [
@@ -37,8 +40,7 @@
     "eslint": "^8.24.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
-    "unbuild": "^0.9.4",
-    "vite": "^4.2.0"
+    "unbuild": "^0.9.4"
   },
   "dependencies": {
     "execa": "^7.1.1",
